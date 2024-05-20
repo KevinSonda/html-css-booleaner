@@ -16,3 +16,30 @@
     height: 490px;
     margin: auto;
 }
+.dimensione-testo{
+    font-size: 40px;
+}
+.dimensione-testo-lista{
+    font-size: 20px;
+}
+.Tab-lorem-1{
+    width: 510px;
+    font-size: 20px;
+    background-color: blue;
+       
+}
+.Tab-lorem{
+    width: 510px;
+    font-size: 20px;
+    background-color: aqua;
+       
+}
+.Tab-lorems{
+    width: 510px;
+    font-size: 20px;
+    background-color: wheat;
+         
+}
+table{
+    border-collapse: collapse;
+}
