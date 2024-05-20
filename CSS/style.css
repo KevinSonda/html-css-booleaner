@@ -1,0 +1,8 @@
+*{
+    margin: 0px;
+}
+.pattern{
+    background-image: url(../immagini/pattern.png);
+    height: 193px;
+    background-color: dodgerblue;
+}
