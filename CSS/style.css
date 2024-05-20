@@ -11,12 +11,13 @@
 }
 #scritta-grigia{
     color: darkgray;
+    font-size: 12px;
 }
 .tim{
     height: 490px;
     margin: auto;
 }
-.dimensione-testo{
+p{
     font-size: 40px;
 }
 .dimensione-testo-lista{
