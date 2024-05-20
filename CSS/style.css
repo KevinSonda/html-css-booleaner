@@ -44,3 +44,7 @@ p{
 table{
     border-collapse: collapse;
 }
+#scritta-grigia-finale{
+    color: darkgray;
+    font-size: 20px;
+}
