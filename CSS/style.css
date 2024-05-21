@@ -1,50 +1,82 @@
 *{
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.pattern{
+/* header css*/
+header{
+    background-color: rgb(64, 64, 252);
     background-image: url(../immagini/pattern.png);
-    height: 193px;
-    background-color: dodgerblue;
+    background-size: 300px;
+    height: 100px;
 }
-#titolo{
-    font-size: 50px;
+#Logo{
+    height: 100px;
+    padding: 40px 0px 15px 10px;
 }
-#scritta-grigia{
-    color: darkgray;
-    font-size: 12px;
+
+/* MAIN */
+main{
+    margin: 5px;
 }
-.tim{
-    height: 490px;
-    margin: auto;
+/* immagin */
+.author{
+    color: grey;
+    font-size: 18px;
 }
-p{
-    font-size: 40px;
+.date{
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 30px;
 }
-.dimensione-testo-lista{
-    font-size: 20px;
+.author-name{
+    color: royalblue;
 }
-.Tab-lorem-1{
-    width: 510px;
-    font-size: 20px;
-    background-color: blue;
-       
+.caption{
+    font-size: 14px;
 }
-.Tab-lorem{
-    width: 510px;
-    font-size: 20px;
-    background-color: aqua;
-       
+.content{
+    margin: 30px 0px;
 }
-.Tab-lorems{
-    width: 510px;
-    font-size: 20px;
-    background-color: wheat;
-         
+ul{
+    margin:  30px 15px;
 }
+/* table*/
 table{
     border-collapse: collapse;
 }
-#scritta-grigia-finale{
-    color: darkgray;
-    font-size: 20px;
+
+
+thead{
+    background-color: cornflowerblue;
+    color: white;
+}
+th{
+    text-align:left ;    
+}
+.text{
+    width: 50%;
+}
+.odd{
+    background-color: lightblue;
+}
+/*footer*/
+h2{
+    color: gray;
+    margin-left: 10px;
+}
+#image-monitor{
+    background-image: url(../immagini/monitor.jpg);
+}
+#image-graph{
+    background-image: url(../immagini/graph.jpg);
+}
+.image{
+    height: 160px;
+    width: 200px;
+    color: white;
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
 }
